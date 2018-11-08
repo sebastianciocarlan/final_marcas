@@ -1,5 +1,19 @@
+:root {
+	--color1: #000000;
+	--color2: #0e0611;
+	--color3: #1d0c22;
+	--color4: #2b1234;
+	--color5: #3a1745;
+	--color6: #481d57;
+	--color7: #572368;
+	--color8: #515151;
+	--color9: #5d5d5d;
+	--color10: #686868;
+	--color11: #747474;
+  }
+  
 body{
-	background-color: #1a1a1a;
+	background-color: var(--color1);
 	font-family: "Arial ";	
 	overflow: auto;
 

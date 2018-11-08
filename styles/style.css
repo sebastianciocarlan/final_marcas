@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
 :root {
 	--color1: #000000;
 	--color2: #0c0c0c;
@@ -11,16 +12,22 @@
 	--color10: #56329e;
 	--color11: #6038b0;
 
-  }
-  
+  }	
+
 body{
-	background-color: var(--color3);
+	background-color: var(--color1);
 	font-family: "Arial ";	
 	overflow: auto;
+	z-index: 10;
+
 
 
 }
-
+canvas{
+	z-index: -1;
+	position:fixed;
+	top:0;
+}
 ul{
 	z-index: 11;
 	border-collapse: collapse;
@@ -32,6 +39,7 @@ ul{
     position: sticky;
     top:0;
     width: 100%;
+    
 }
 li{
 	background-color:var(--color4);

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
 :root {
 	--color1: #000000;
 	--color2: #0c0c0c;
@@ -14,7 +15,7 @@
   }	
 body{
 	background-color: var(--color1);
-	font-family: "Arial ";	
+	font-family: "Orbitron";	
 	overflow: auto;
 	z-index: 10;
 }
@@ -39,10 +40,12 @@ ul{
     width: 100%;  
 }
 li{
+	color: #FFFFFF;
+	text-shadow: 0 0 4px #FFFFFF;
+	color: #FFFFFF;
 	background-color:var(--color4);
 	float:left;
 	display: block;
-    color: white;
     text-align: center;
     text-decoration: none;
     padding: 14px 16px;
@@ -74,6 +77,7 @@ li:hover{
 	z-index: 10;
 }
 .cbody{
+	opacity:0.8;
 	padding-top: 0.5%;
 	padding-right: 1%;
 	padding-left: 1%;
@@ -90,15 +94,10 @@ li:hover{
 }
 .footer{
 	display: inline-block;
-	background-color: transparent;
+	background-color: #232323;
 	position: fixed;
 	bottom: 0;
 	right: 0;
 	left:0;
-}
-.footer-img{
-	position:fixed;
-	bottom:0;
-	right: 0;
-	left:0;
+	border-top: solid 2px var(--color8);
 }

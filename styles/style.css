@@ -82,7 +82,7 @@ li:hover{
 	padding-right: 1%;
 	padding-left: 1%;
 	padding-bottom: 1%;
-	font-family: "Arial";
+	font-family: "Orbitron";
 	background-color: #272727;
 	border-right: solid 2px;
 	border-left: solid 2px;
@@ -92,12 +92,6 @@ li:hover{
 	margin-right: 10%;
 	text-align: justify; 
 }
-.footer{
-	display: inline-block;
-	background-color: #232323;
-	position: fixed;
-	bottom: 0;
-	right: 0;
-	left:0;
-	border-top: solid 2px var(--color8);
+.formulario{
+	text-align: right;
 }

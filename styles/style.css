@@ -82,7 +82,7 @@ li:hover{
 	padding-top: 2%;
 	padding-right: 1%;
 	padding-left: 1%;
-	padding-bottom: 1%;
+	padding-bottom: 3%;
 	font-family: "Strait", sans-serif;
 	background-color: #272727;
 	border-right: solid 2px;
@@ -94,7 +94,7 @@ li:hover{
 	text-align: justify; 
 }
 .formulario{
-	text-align: right;
+	text-align: left;
 }
 .cat-dcha{
 width: 124px;

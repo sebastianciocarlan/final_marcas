@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
 @import url('https://fonts.googleapis.com/css?family=Orbitron');
+@import url('https://fonts.googleapis.com/css?family=Strait');
 :root {
 	--color1: #000000;
 	--color2: #0c0c0c;
@@ -77,12 +78,12 @@ li:hover{
 	z-index: 10;
 }
 .cbody{
-	opacity:0.8;
-	padding-top: 0.5%;
+	opacity:0.9;
+	padding-top: 2%;
 	padding-right: 1%;
 	padding-left: 1%;
 	padding-bottom: 1%;
-	font-family: "Orbitron";
+	font-family: "Strait", sans-serif;
 	background-color: #272727;
 	border-right: solid 2px;
 	border-left: solid 2px;
@@ -94,4 +95,59 @@ li:hover{
 }
 .formulario{
 	text-align: right;
+}
+.cat-dcha{
+width: 124px;
+height: 124px;
+object-fit: cover;
+float: left;
+-webkit-border-top-left-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-moz-border-radius-topleft: 10px;
+-moz-border-radius-bottomleft: 10px;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+border-right: solid 2px var(--color8);
+}
+.cat-izq{
+width: 124px;
+height: 124px;
+object-fit: cover;
+float: right;
+-webkit-border-top-right-radius: 10px;
+-webkit-border-bottom-right-radius: 10px;
+-moz-border-radius-topright: 10px;
+-moz-border-radius-bottomright: 10px;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+border-left: solid 2px var(--color8);
+
+}
+.cat{
+width: 100%;
+background-color: #232323; 
+border:solid 2px;
+border-color:var(--color8);
+overflow: auto;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+transition: width 1s;
+}
+.cat-text-izq{
+	padding:3%;
+	padding-right:15%; 
+	text-align: right;
+}
+.cat-text-dch{
+	padding:2.6%;
+	padding-left:15%;
+	text-align: left; 
+}
+h5{
+	font-weight: bold;
+}
+.cat:hover{
+	width: 101%;
+	text-shadow: 0 0 4px #FFFFFF;
 }
